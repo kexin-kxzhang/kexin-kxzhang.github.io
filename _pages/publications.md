@@ -13,16 +13,16 @@ author_profile: true
 
 ## Conference/Journal Papers (* indicates equal contributions)
 <ul>
-- Fusion Matters: Learning Fusion in Deep Click-through Rate Prediction Models<br>
-<b>Kexin Zhang</b>, Fuyuan Lyu, Xing Tang, Dugang Liu, Chen Ma, Kaize Ding, Xiuqiang He, Xue Liu<br>
-<i>ACM International Conference on Web Search and Data Mining **(WSDM)**, 2025.</i>
+<li>Fusion Matters: Learning Fusion in Deep Click-through Rate Prediction Models<br />
+<b>Kexin Zhang</b>, Fuyuan Lyu, Xing Tang, Dugang Liu, Chen Ma, Kaize Ding, Xiuqiang He, Xue Liu<br />
+<i>ACM International Conference on Web Search and Data Mining (WSDM), 2025.</i><br /></li>
 
-- An Incremental Learning Approach for Multi-Scenario Recommendation<br>
-<b>Kexin Zhang*</b>, Yichao Wang*, Xiu Li<sup>†</sup>, Ruiming Tang<sup>†</sup>, Rui Zhang<br>
-<i>ACM International Conference on Web Search and Data Mining **(WSDM)**, 2024.</i>
+<li>An Incremental Learning Approach for Multi-Scenario Recommendation<br />
+<b>Kexin Zhang*</b>, Yichao Wang*, Xiu Li<sup>†</sup>, Ruiming Tang<sup>†</sup>, Rui Zhang<br />
+<i>ACM International Conference on Web Search and Data Mining (WSDM), 2024.</i><br /></li>
 
-- HCL4QC: Incorporating Hierarchical Category Structures Into Contrastive Learning for Ecommerce Query Classification<br>
-Lvxing Zhu*, <b>Kexin Zhang*</b>, Hao Chen, Chao Wei, Weiru Zhang, Haihong Tang, Xiu Li<sup>†</sup><br>
-<i>ACM International Conference on Information and Knowledge Management **(CIKM)**, 2023. (Oral Presentation)</i>
+<li>HCL4QC: Incorporating Hierarchical Category Structures Into Contrastive Learning for Ecommerce Query Classification<br />
+Lvxing Zhu*, <b>Kexin Zhang*</b>, Hao Chen, Chao Wei, Weiru Zhang, Haihong Tang, Xiu Li<br />
+<i>ACM International Conference on Information and Knowledge Management (CIKM), 2023. (Oral Presentation)</i><br /></li>
 
 </ul>
