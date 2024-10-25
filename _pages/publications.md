@@ -22,7 +22,7 @@ author_profile: true
 <i>ACM International Conference on Web Search and Data Mining (WSDM), 2024.</i><br /></li>
 
 <li>HCL4QC: Incorporating Hierarchical Category Structures Into Contrastive Learning for Ecommerce Query Classification<br />
-Lvxing Zhu*, <b>Kexin Zhang*</b>, Hao Chen, Chao Wei, Weiru Zhang, Haihong Tang, Xiu Li<br />
+Lvxing Zhu*, <b>Kexin Zhang*</b>, Hao Chen, Chao Wei, Weiru Zhang, Haihong Tang, Xiu Li<sup>†</sup><br />
 <i>ACM International Conference on Information and Knowledge Management (CIKM), 2023. (Oral Presentation)</i><br /></li>
 
 </ul>
