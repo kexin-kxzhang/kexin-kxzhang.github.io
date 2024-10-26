@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am currently a research intern at [Northwestern University]([https://www.northwestern.edu/]), under the supervision of [Prof. Kaize Ding]([https://kaize0409.github.io/]). I obtained my B.E. degree from Xidian University in 2021 and M.E. degree from Tsinghua University in 2024. My research interests are generally in data mining and machine learning, with a focus on reliable, efficient and automated AI systems. Meanwhile, I am passionate about developing data-centric algorithms to advance applications in social media, urban science and environmental science.
+I am currently a research intern at [Northwestern University](https://www.northwestern.edu/), under the supervision of [Prof. Kaize Ding](https://kaize0409.github.io/). I obtained my B.E. degree from Xidian University in 2021 and M.E. degree from Tsinghua University in 2024. My research interests are generally in data mining and machine learning, with a focus on reliable, efficient and automated AI systems. Meanwhile, I am passionate about developing data-centric algorithms to advance applications in social media, urban science and environmental science.
 
 ### Current Research Interests
 
