@@ -25,7 +25,7 @@ I am enthusiastic about the prospect of collaboration. Please feel free to reach
 
 News
 ======
-- **[10/2024]** New survey paper: [A Survey of Deep Graph Learning under Distribution Shifts: from Graph Out-of-Distribution Generalization to Adaptation](https://arxiv.org/pdf/2410.19265) is now on arXiv.
+- **[10/2024]** New survey paper: [Deep Graph Learning under Distribution Shifts](https://arxiv.org/pdf/2410.19265) is now on arXiv.
 - **[10/2024]** One paper accepted by WSDM, 2025.
 - **[10/2023]** One paper accepted by WSDM, 2024.
 - **[08/2023]** One paper accepted by CIKM, 2023.
