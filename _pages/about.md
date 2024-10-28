@@ -33,7 +33,7 @@ News
 Publications
 ======
 - A Survey of Deep Graph Learning under Distribution Shifts: from Graph Out-of-Distribution Generalization to Adaptation [[pdf]](https://arxiv.org/pdf/2410.19265)<br>
-**Kexin Zhang**, Shuhan Liu, Song Wang, Weili Shi, Chen Chen, Pan Li, Sheng Li, Jundong Li, Kaize Ding<br>
+**Kexin Zhang**, Shuhan Liu, Song Wang, Weili Shi, Chen Chen, Pan Li, Sheng Li, Jundong Li, Kaize Ding<sup>†</sup><br>
 
 - Fusion Matters: Learning Fusion in Deep Click-through Rate Prediction Models<br>
 **Kexin Zhang**, Fuyuan Lyu, Xing Tang, Dugang Liu, Chen Ma, Kaize Ding, Xiuqiang He, Xue Liu<br>
