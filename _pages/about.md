@@ -13,9 +13,9 @@ I am currently a research intern at [Northwestern University](https://www.northw
 
 ### Current Research Interests
 
-- **Data-Centric AI: Time Series, Spatiotemporal Graph, Click-through Rate**
+- **Data-Centric AI: Time Series, Spatiotemporal Graph**
 - **Trustworthy ML: Fraud, Anomaly and OOD Data**
-- **Generative AI and and Applications: Urban Science and Environment Science**
+- **Generative AI and and Applications: Urban Science and Environmental Science**
 
 ### Contact Information
 
