@@ -15,7 +15,7 @@ I am currently a research intern at [Northwestern University](https://www.northw
 
 - **Data-Centric AI: Time Series, Spatiotemporal Graph**
 - **Trustworthy ML: Fraud, Anomaly and OOD Data**
-- **Generative AI and and Applications: Urban Science and Environmental Science**
+- **Generative AI and Applications: Urban Science and Environmental Science**
 
 ### Contact Information
 
