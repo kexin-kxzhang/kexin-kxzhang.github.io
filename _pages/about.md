@@ -34,7 +34,7 @@ News
 Publications
 ======
 - Combinatorial Optimization Perspective based Framework for Multi-behavior Recommendation<br>
-Chenhao Zhai, Chang Meng, Yu Yang, **Kexin Zhang**, Xuhao Zhao, Xiu Li\textsuperscript{†}
+Chenhao Zhai, Chang Meng, Yu Yang, **Kexin Zhang**, Xuhao Zhao, Xiu Li<sup>†</sup><br>
 <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining **(KDD)**, 2025.</i>
 
 - A Survey of Deep Graph Learning under Distribution Shifts: from Graph Out-of-Distribution Generalization to Adaptation [[pdf]](https://arxiv.org/pdf/2410.19265)<br>
