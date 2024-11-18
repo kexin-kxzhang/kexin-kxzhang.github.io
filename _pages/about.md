@@ -25,6 +25,7 @@ I am enthusiastic about the prospect of collaboration. Please feel free to reach
 
 News
 ======
+- **[11/2024]** One paper accepted by KDD, 2025.
 - **[10/2024]** New survey paper: [Deep Graph Learning under Distribution Shifts](https://arxiv.org/pdf/2410.19265) is now on arXiv.
 - **[10/2024]** One paper accepted by WSDM, 2025.
 - **[10/2023]** One paper accepted by WSDM, 2024.
@@ -32,6 +33,10 @@ News
 
 Publications
 ======
+- Combinatorial Optimization Perspective based Framework for Multi-behavior Recommendation<br>
+Chenhao Zhai, Chang Meng, Yu Yang, **Kexin Zhang**, Xuhao Zhao, Xiu Li\textsuperscript{†}
+<i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining **(KDD)**, 2025.</i>
+
 - A Survey of Deep Graph Learning under Distribution Shifts: from Graph Out-of-Distribution Generalization to Adaptation [[pdf]](https://arxiv.org/pdf/2410.19265)<br>
 **Kexin Zhang**, Shuhan Liu, Song Wang, Weili Shi, Chen Chen, Pan Li, Sheng Li, Jundong Li, Kaize Ding<sup>†</sup><br>
 
