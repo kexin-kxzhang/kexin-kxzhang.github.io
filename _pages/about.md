@@ -52,6 +52,11 @@ Chenhao Zhai, Chang Meng, Yu Yang, **Kexin Zhang**, Xuhao Zhao, Xiu Li<sup>†</
 Lvxing Zhu<sup>*</sup>, **Kexin Zhang**<sup>*</sup>, Hao Chen, Chao Wei, Weiru Zhang, Haihong Tang, Xiu Li<sup>†</sup><br>
 <i>ACM International Conference on Information and Knowledge Management **(CIKM)**, 2023. (Oral Presentation)</i>
 
+Services
+======
+Conference Review:
+- Sub reviewer - SDM 2025
+
 Internships
 ======
 - [11/2023]-[02/2024], Research Intern, Tencent, Corporate & Development Group, Shenzhen, China.
