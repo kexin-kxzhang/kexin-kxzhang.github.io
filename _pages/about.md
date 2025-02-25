@@ -55,6 +55,7 @@ Lvxing Zhu<sup>*</sup>, **Kexin Zhang**<sup>*</sup>, Hao Chen, Chao Wei, Weiru Z
 Services
 ======
 Conference Review:
+- Reviewer - KDD 2025
 - Sub reviewer - SDM 2025
 
 Internships
