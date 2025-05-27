@@ -39,7 +39,7 @@ Publications
 **Kexin Zhang**, Baoyu Jing, K. Selcuk Candan, Dawei Zhou, Han Liu, Qingsong Wen, Kaize Ding<sup>†</sup><br>
 <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases **(ECML-PKDD)**, 2025.</i>
 
-- A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization<br>
+- A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization[[pdf]](https://arxiv.org/pdf/2505.16094)<br>
 Ziqing Wang<sup>*</sup>, **Kexin Zhang**<sup>*</sup>, Zihan Zhao, Yibo Wen, Abhishek Pandey, Han Liu, Kaize Ding<sup>†</sup><br>
 
 - Combinatorial Optimization Perspective based Framework for Multi-behavior Recommendation<br>
