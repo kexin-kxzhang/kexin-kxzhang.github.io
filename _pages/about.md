@@ -36,7 +36,7 @@ News
 Publications
 ======
 - Cross-Domain Conditional Diffusion Models for Time Series Imputation<br>
-**Kexin Zhang**, Baoyu Jing, K. Selcuk Candan, Dawei Zhou, Han Liu, Qingsong Wen, Kaize Ding<sup>†</sup><br>
+**Kexin Zhang**, Baoyu Jing, K. Selcuk Candan, Dawei Zhou, Qingsong Wen, Han Liu, Kaize Ding<sup>†</sup><br>
 <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases **(ECML-PKDD)**, 2025.</i>
 
 - A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization[[pdf]](https://arxiv.org/pdf/2505.16094)<br>
