@@ -25,6 +25,8 @@ I am enthusiastic about the prospect of collaboration. Please feel free to reach
 
 News
 ======
+- **[05/2025]** One paper accepted by ECML-PKDD, 2025.
+- **[05/2025]** New survey paper: [Large Language Models for Molecular Discovery](https://arxiv.org/pdf/2505.16094) is now on arXiv.
 - **[11/2024]** One paper accepted by KDD, 2025.
 - **[10/2024]** New survey paper: [Deep Graph Learning under Distribution Shifts](https://arxiv.org/pdf/2410.19265) is now on arXiv.
 - **[10/2024]** One paper accepted by WSDM, 2025.
@@ -33,6 +35,13 @@ News
 
 Publications
 ======
+- Cross-Domain Conditional Diffusion Models for Time Series Imputation<br>
+**Kexin Zhang**, Baoyu Jing, K. Selcuk Candan, Dawei Zhou, Han Liu, Qingsong Wen, Kaize Ding<sup>†</sup><br>
+<i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases **(ECML-PKDD)**, 2025.</i>
+
+- A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization<br>
+Ziqing Wang<sup>*</sup>, **Kexin Zhang**<sup>*</sup>, Zihan Zhao, Yibo Wen, Abhishek Pandey, Han Liu, Kaize Ding<sup>†</sup><br>
+
 - Combinatorial Optimization Perspective based Framework for Multi-behavior Recommendation<br>
 Chenhao Zhai, Chang Meng, Yu Yang, **Kexin Zhang**, Xuhao Zhao, Xiu Li<sup>†</sup><br>
 <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining **(KDD)**, 2025.</i>
