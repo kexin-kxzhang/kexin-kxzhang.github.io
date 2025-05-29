@@ -67,13 +67,6 @@ Conference Review:
 - Reviewer - KDD 2025
 - Sub reviewer - SDM 2025
 
-Internships
-======
-- [11/2023]-[02/2024], Research Intern, Tencent, Corporate & Development Group, Shenzhen, China.
-- [08/2023]-[10/2023], Research Intern, Tencent, Platform & Content Group, Shenzhen, China.
-- [02/2023]-[05/2023], Research Intern, Alibaba, AliExpress, Hangzhou, China.
-- [12/2020]-[03/2021], Research Intern, Megvii, AIC Group, Beijing, China.
-
 Educations
 ======
 - [09/2021]-[06/2024], Master, Institute of Data and Information, Shenzhen International Graduate School, **Tsinghua University**.
