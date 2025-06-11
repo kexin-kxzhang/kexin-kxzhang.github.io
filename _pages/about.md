@@ -25,6 +25,7 @@ I am enthusiastic about the prospect of collaboration. Please feel free to reach
 
 News
 ======
+- **[06/2025]** Honored to be recognized as an Outstanding Reviewer for KDD 2025 (February cycle), awarded to the top 10% of reviewers.
 - **[05/2025]** One paper accepted by ECML-PKDD, 2025.
 - **[05/2025]** New survey paper: [Large Language Models for Molecular Discovery](https://arxiv.org/pdf/2505.16094) is now on arXiv.
 - **[11/2024]** One paper accepted by KDD, 2025.
