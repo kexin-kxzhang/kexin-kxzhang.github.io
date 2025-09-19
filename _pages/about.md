@@ -25,6 +25,7 @@ I am enthusiastic about the prospect of collaboration. Please feel free to reach
 
 News
 ======
+- **[09/2025]** One paper accepted by NeurIPS, 2025.
 - **[06/2025]** Honored to be recognized as an Outstanding Reviewer for KDD 2025 (February cycle), awarded to the top 10% of reviewers.
 - **[05/2025]** One paper accepted by ECML-PKDD, 2025.
 - **[05/2025]** New survey paper: [Large Language Models for Molecular Discovery](https://arxiv.org/pdf/2505.16094) is now on arXiv.
@@ -36,6 +37,10 @@ News
 
 Publications
 ======
+- Glocal Information Bottleneck for Time Series Imputation<br>
+Jie Yang, **Kexin Zhang**, Guibin Zhang, Philip S. Yu, Kaize Ding<sup>†</sup><br>
+<i>Advances in Neural Information Processing Systems, **(NeurIPS)**, 2025.</i>
+
 - Cross-Domain Conditional Diffusion Models for Time Series Imputation<br>
 **Kexin Zhang**, Baoyu Jing, K. Selcuk Candan, Dawei Zhou, Qingsong Wen, Han Liu, Kaize Ding<sup>†</sup><br>
 <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases **(ECML-PKDD)**, 2025.</i>
