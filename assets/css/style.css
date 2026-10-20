@@ -118,9 +118,10 @@ h3 { font-size: 1.1rem; margin: 2rem 0 0.75rem; }
   padding-top: 2.75rem;
 }
 .hero-photo {
-  width: 180px;
-  height: 180px;
+  width: 176px;
+  height: 220px;
   object-fit: cover;
+  object-position: 50% 20%;
   border-radius: 4px;
   flex-shrink: 0;
 }
@@ -245,7 +246,7 @@ h3 { font-size: 1.1rem; margin: 2rem 0 0.75rem; }
 
   .page { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
   .hero { flex-direction: column; gap: 20px; padding-top: 1.75rem; }
-  .hero-photo { width: 140px; height: 140px; }
+  .hero-photo { width: 132px; height: 165px; }
   .hero h1 { font-size: 1.95rem; }
   .tagline { font-size: 1.15rem; }
 
