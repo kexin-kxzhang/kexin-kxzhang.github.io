@@ -1,4 +1,4 @@
-// Renders News, Publications and Activities from assets/js/content.js.
+// Renders News and Publications from assets/js/content.js.
 // You should not need to edit this file; edit content.js instead.
 
 (function () {
@@ -64,21 +64,6 @@
       pubList.appendChild(d);
     });
   });
-
-  // ---------- Professional activities ----------
-  if (C.activities && C.activities.length) {
-    var act = document.getElementById("activities");
-    var list = document.getElementById("activity-list");
-    C.activities.forEach(function (a) {
-      var li = document.createElement("li");
-      li.innerHTML = '<span class="label">' + esc(a.role) + ":</span> " + a.items;
-      list.appendChild(li);
-    });
-    act.hidden = false;
-  } else {
-    var navItem = document.querySelector('[data-section="activities"]');
-    if (navItem) navItem.hidden = true;
-  }
 
   // ---------- Footer ----------
   document.getElementById("year").textContent = new Date().getFullYear();

@@ -3,8 +3,8 @@
 Static site: plain HTML + CSS + a small script, with no build step or framework.
 
 ```
-index.html              bio, research questions, education, honors, experience
-assets/js/content.js    news, publications, professional activities  <- edit most often
+index.html              bio, research questions, education, honors, experience, service
+assets/js/content.js    news, publications  <- edit most often
 assets/js/render.js     turns content.js into HTML (no need to touch)
 assets/css/style.css    all styling; colors are variables at the top
 assets/img/             profile photo
@@ -15,7 +15,8 @@ assets/img/             profile photo
 - **Add news:** add a line at the top of `news` in `content.js`. Only the first `newsShown` items show; older ones go behind "Show older news".
 - **Add a paper:** copy a block in `publications`. Buttons appear only for links you fill in (`paper`, `code`, `project`, `slides`, `video`, `poster`).
 - **Link to a paper from text:** use `#pub-<id>`, e.g. `<a href="#pub-gridbench">`.
-- **Professional activities:** fill `activities` in `content.js`. The section and its nav link appear automatically once the list is non-empty.
+- **Service:** edit the Service section at the bottom of `index.html`.
+- **After editing CSS/JS:** bump the `?v=` number on the three asset links in `index.html` so visitors don't get a cached old file.
 - **Footer date:** `lastUpdated` in `content.js`.
 
 ## Preview locally

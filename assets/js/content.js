@@ -1,7 +1,6 @@
 // =====================================================================
-//  SITE CONTENT: edit this file to update News, Publications and
-//  Professional Activities. index.html holds the bio, education,
-//  experience and honors.
+//  SITE CONTENT: edit this file to update News and Publications.
+//  index.html holds the bio, education, honors, experience and service.
 //
 //  Publication fields
 //    id          short anchor, e.g. "gridbench" -> link to it with #pub-gridbench
@@ -155,14 +154,5 @@ window.SITE = {
       venueShort: "CIKM 2023", venue: "ACM International Conference on Information and Knowledge Management (CIKM), 2023",
       links: { paper: "https://doi.org/10.1145/3583780.3614907" }
     }
-  ],
-
-  // ------------------------------------------ Professional Activities
-  // The section appears automatically once this list has entries, e.g.
-  //   { role: "Conference Reviewer", items: "ICML 2026, NeurIPS 2026, KDD 2026" },
-  //   { role: "Journal Reviewer",    items: "IEEE TKDE, ACM TKDD" },
-  //   { role: "Teaching Assistant",  items: "CSCI 567 Machine Learning, USC (Fall 2026)" },
-  activities: [
-    { role: "Conference Reviewer", items: "KDD 2025, KDD 2026, WWW 2026, ICLR 2027, AAAI 2027" }
   ]
 };
