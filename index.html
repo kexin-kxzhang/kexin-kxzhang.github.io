@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kexin Zhang · USC</title>
+  <meta name="description" content="Kexin Zhang is a Computer Science Ph.D. student at USC working on reliable and self-evolving AI agents: evaluation, generalization, and continual adaptation in dynamic environments.">
+  <meta property="og:title" content="Kexin Zhang">
+  <meta property="og:description" content="Ph.D. student at USC working on reliable, self-evolving AI agents.">
+  <meta property="og:image" content="assets/img/kexin-zhang.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23990000'/><text x='16' y='22' font-family='Georgia,serif' font-size='17' fill='white' text-anchor='middle'>KZ</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="nav-name" href="#home">Kexin Zhang</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li data-section="activities"><a href="#activities">Activities</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+
+  <!-- ============================== HOME ============================== -->
+  <section id="home" class="hero">
+    <img class="hero-photo" src="assets/img/kexin-zhang.jpg" alt="Portrait of Kexin Zhang" width="176" height="220">
+    <div class="hero-text">
+      <h1>Kexin Zhang</h1>
+      <p class="role">Ph.D. Student in Computer Science, University of Southern California</p>
+      <p class="role muted">Advised by <a href="https://viterbi.usc.edu/directory/faculty/Liu/Yan">Prof. Yan Liu</a> (IEEE Fellow, AAAI Fellow) · <a href="https://melady.usc.edu/">Melady Lab</a></p>
+
+      <p class="tagline">I work on reliable and self-evolving AI agents, with a focus on evaluation, generalization, and continual adaptation in dynamic environments.</p>
+
+      <ul class="links">
+        <li>kzhang70 [at] usc [dot] edu</li>
+        <li><a href="https://scholar.google.com/citations?user=RipBP8wAAAAJ&amp;hl=en">Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com/in/kexin-zhang-2252a92ab/">LinkedIn</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about">
+    <p>
+      I am a first-year Ph.D. student at USC. I study AI agents that accumulate experience, skills,
+      and tools over time, and how to make them reliable as they change. My current questions:
+    </p>
+
+    <ol class="questions">
+      <li>
+        <span class="q-title">Evaluation.</span>
+        How do we tell whether an agent has actually improved, rather than just scoring well on the final answer?
+      </li>
+      <li>
+        <span class="q-title">Generalization in dynamic environments.</span>
+        Can agents model how a world changes over time, and reason over long, evolving temporal context?
+      </li>
+      <li>
+        <span class="q-title">Continual self-evolution.</span>
+        When an agent keeps updating itself, when does past experience help, and when does it lock in
+        behavior that no longer fits the environment?
+      </li>
+    </ol>
+
+    <p class="trajectory">
+      <span class="label">Background.</span>
+      Before agents, I worked on learning when data are incomplete or the distribution shifts:
+      time-series imputation and forecasting (NeurIPS&nbsp;’25, ICML&nbsp;’26, ECML-PKDD&nbsp;’25, KDD&nbsp;’26),
+      graph learning under distribution shift (TKDD&nbsp;’25), LLMs for molecular discovery (ACL&nbsp;’26),
+      and incremental, multi-scenario recommendation at Tencent and Alibaba (WSDM, CIKM, KDD).
+    </p>
+
+    <p class="collab">
+      <strong>Open to collaboration.</strong> If you work on agent evaluation, self-improving systems, or AI in
+      changing environments, I would be glad to hear from you. Please email me at kzhang70 [at] usc [dot] edu.
+    </p>
+  </section>
+
+  <section id="news" class="block">
+    <h2>News</h2>
+    <ul class="news" id="news-list"></ul>
+    <button class="text-toggle" id="news-toggle" hidden>Show older news</button>
+  </section>
+
+  <!-- ========================== PUBLICATIONS ========================== -->
+  <section id="publications" class="block">
+    <h2>Selected Publications</h2>
+    <p class="note">
+      * equal contribution &nbsp;·&nbsp; † corresponding author &nbsp;·&nbsp;
+      Full list on <a href="https://scholar.google.com/citations?user=RipBP8wAAAAJ&amp;hl=en">Google Scholar</a>
+    </p>
+    <div id="pub-list"></div>
+    <button class="text-toggle" id="pub-toggle">Show all publications</button>
+  </section>
+
+  <!-- ============================ EDUCATION =========================== -->
+  <section id="education" class="block">
+    <h2>Education</h2>
+    <ul class="timeline">
+      <li>
+        <div class="tl-main"><strong>University of Southern California</strong><br>
+          Ph.D. in Computer Science · Advisor: Prof. Yan Liu</div>
+      </li>
+      <li>
+        <div class="tl-main"><strong>Tsinghua University</strong>, Institute of Data and Information<br>
+          M.Eng. in Artificial Intelligence · Advisor: Prof. Xiu Li</div>
+      </li>
+      <li>
+        <div class="tl-main"><strong>Xidian University</strong>, School of Electronic Engineering<br>
+          B.Eng. in Information Countermeasure Technology</div>
+      </li>
+    </ul>
+
+    <h3>Honors</h3>
+    <ul class="timeline compact">
+      <li><div class="tl-main">USC Annenberg Fellowship</div><div class="tl-date">2026</div></li>
+      <li><div class="tl-main">Outstanding Reviewer, KDD 2025 (February cycle)</div><div class="tl-date">2025</div></li>
+      <li><div class="tl-main">Professional Practice Award, Tsinghua University</div><div class="tl-date">2023</div></li>
+      <li><div class="tl-main">National Scholarship, China (twice)</div><div class="tl-date">2019, 2020</div></li>
+      <li><div class="tl-main">Meritorious Winner, Mathematical Contest in Modeling</div><div class="tl-date">2019</div></li>
+      <li><div class="tl-main">National Golden Prize, “Challenge Cup” Student Science &amp; Technology Competition</div><div class="tl-date">2019</div></li>
+    </ul>
+  </section>
+
+  <!-- ============================ EXPERIENCE ========================== -->
+  <section id="experience" class="block">
+    <h2>Experience</h2>
+    <ul class="timeline">
+      <li>
+        <div class="tl-main"><strong>USC, Melady Lab</strong> · Research Intern, with Prof. Yan Liu<br>
+          <span class="muted">LLM reasoning over time series; time-series–language foundation models.</span></div>
+        <div class="tl-date">Oct 2025 – Feb 2026</div>
+      </li>
+      <li>
+        <div class="tl-main"><strong>Northwestern University, REAL Lab</strong> · Research Intern, with Prof. Kaize Ding<br>
+          <span class="muted">Time series under missingness and distribution shift; LLMs for scientific discovery.</span></div>
+        <div class="tl-date">May 2024 – Aug 2025</div>
+      </li>
+      <li>
+        <div class="tl-main"><strong>Tencent</strong>, Corporate Development Group · Research Intern<br>
+          <span class="muted">AutoML for feature-interaction fusion in CTR prediction (WSDM ’25).</span></div>
+        <div class="tl-date">Oct 2023 – Feb 2024</div>
+      </li>
+      <li>
+        <div class="tl-main"><strong>Alibaba</strong>, AliExpress Search &amp; Ads · Research Intern<br>
+          <span class="muted">Hierarchy-aware contrastive learning for query classification (CIKM ’23).</span></div>
+        <div class="tl-date">Feb 2023 – May 2023</div>
+      </li>
+      <li>
+        <div class="tl-main"><strong>Megvii</strong>, AIC Group · Research Intern<br>
+          <span class="muted">Quantized vision models for efficient detection.</span></div>
+        <div class="tl-date">Dec 2020 – Mar 2021</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ====================== PROFESSIONAL ACTIVITIES ===================
+       Filled from `activities` in assets/js/content.js. The section and its
+       nav link stay hidden while that list is empty. -->
+  <section id="activities" class="block" hidden>
+    <h2>Professional Activities</h2>
+    <ul class="activities" id="activity-list"></ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year">2026</span> Kexin Zhang · Last updated <span id="updated"></span></p>
+</footer>
+
+<script src="assets/js/content.js"></script>
+<script src="assets/js/render.js"></script>
+</body>
+</html>
