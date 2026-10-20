@@ -37,13 +37,12 @@
       .map(function (k) { return '<a class="btn" href="' + esc(p.links[k]) + '">' + LABEL[k] + "</a>"; })
       .join("");
     var authors = esc(p.authors).replace(ME, function (m) { return '<span class="me">' + m + "</span>"; });
-    var tag = p.role ? '<span class="pub-tag">' + esc(p.role) + "</span>" : "";
     return (
       '<div class="pub-venue">' + esc(p.venueShort) + "</div>" +
       "<div>" +
       '<div class="pub-title">' + esc(p.title) + "</div>" +
       '<div class="pub-authors">' + authors + "</div>" +
-      '<div class="pub-meta">' + esc(p.venue) + tag + "</div>" +
+      '<div class="pub-meta">' + esc(p.venue) + "</div>" +
       (links ? '<div class="pub-links">' + links + "</div>" : "") +
       "</div>"
     );
@@ -53,38 +52,18 @@
   C.pubGroups.forEach(function (g) {
     var items = C.publications.filter(function (p) { return p.group === g.key; });
     if (!items.length) return;
-    var anySelected = items.some(function (p) { return p.selected; });
     var h = document.createElement("div");
-    h.className = "pub-group" + (anySelected ? "" : " extra");
+    h.className = "pub-group";
     h.textContent = g.title;
     pubList.appendChild(h);
     items.forEach(function (p) {
       var d = document.createElement("div");
-      d.className = "pub" + (p.selected ? "" : " extra");
+      d.className = "pub";
       if (p.id) d.id = "pub-" + p.id;
       d.innerHTML = pubHTML(p);
       pubList.appendChild(d);
     });
   });
-
-  var pubToggle = document.getElementById("pub-toggle");
-  var hasExtra = C.publications.some(function (p) { return !p.selected; });
-  if (!hasExtra) pubToggle.hidden = true;
-  pubToggle.addEventListener("click", function () {
-    var on = pubList.classList.toggle("show-all");
-    pubToggle.textContent = on ? "Show selected only" : "Show all publications";
-  });
-  // If someone links to a hidden paper (#pub-xyz), reveal the full list.
-  function revealTarget() {
-    var hash = location.hash.slice(1);
-    var target = hash && document.getElementById(hash);
-    if (target && target.classList.contains("extra") && !pubList.classList.contains("show-all")) {
-      pubToggle.click();
-      target.scrollIntoView();
-    }
-  }
-  revealTarget();
-  window.addEventListener("hashchange", revealTarget);
 
   // ---------- Professional activities ----------
   if (C.activities && C.activities.length) {

@@ -12,7 +12,6 @@
   --accent: #990000;          /* USC cardinal, used only for links */
   --accent-hover: #6e0000;
   --chip-bg: #f6f7f8;
-  --mark: #fff7e0;            /* highlight for "first-author" tag */
 
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -29,7 +28,6 @@
     --accent: #f08a84;
     --accent-hover: #ffb3ae;
     --chip-bg: #1c1e21;
-    --mark: #3a3220;
     color-scheme: dark;
   }
 }
@@ -42,7 +40,6 @@
   --accent: #f08a84;
   --accent-hover: #ffb3ae;
   --chip-bg: #1c1e21;
-  --mark: #3a3220;
   color-scheme: dark;
 }
 
@@ -187,7 +184,6 @@ h3 { font-size: 1.1rem; margin: 2rem 0 0.75rem; }
 .pub-authors { font-size: 0.92rem; color: var(--muted); margin-top: 0.15rem; }
 .pub-authors .me { color: var(--text); font-weight: 600; }
 .pub-meta { font-size: 0.88rem; color: var(--faint); font-style: italic; margin-top: 0.1rem; }
-.pub-tag { font-style: normal; font-size: 0.78rem; background: var(--mark); color: var(--text); padding: 0 5px; border-radius: 3px; margin-left: 6px; }
 .pub-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 0.45rem; }
 .btn {
   font-size: 0.78rem;
@@ -199,10 +195,6 @@ h3 { font-size: 1.1rem; margin: 2rem 0 0.75rem; }
   background: var(--chip-bg);
 }
 .btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
-.pub.extra { display: none; }
-.show-all .pub.extra { display: grid; }
-.show-all .pub-group.extra { display: block; }
-.pub-group.extra { display: none; }
 
 .text-toggle {
   margin-top: 0.8rem;
@@ -269,5 +261,4 @@ h3 { font-size: 1.1rem; margin: 2rem 0 0.75rem; }
 
 @media print {
   .site-header, .text-toggle { display: none; }
-  .pub.extra, .pub-group.extra { display: grid; }
 }

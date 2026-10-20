@@ -13,7 +13,7 @@ assets/img/             profile photo
 ## Common edits
 
 - **Add news:** add a line at the top of `news` in `content.js`. Only the first `newsShown` items show; older ones go behind "Show older news".
-- **Add a paper:** copy a block in `publications`. `selected: true` shows it by default; `false` puts it behind "Show all publications". Buttons appear only for links you fill in (`paper`, `code`, `project`, `slides`, `video`, `poster`).
+- **Add a paper:** copy a block in `publications`. Buttons appear only for links you fill in (`paper`, `code`, `project`, `slides`, `video`, `poster`).
 - **Link to a paper from text:** use `#pub-<id>`, e.g. `<a href="#pub-gridbench">`.
 - **Professional activities:** fill `activities` in `content.js`. The section and its nav link appear automatically once the list is non-empty.
 - **Footer date:** `lastUpdated` in `content.js`.
