@@ -51,11 +51,11 @@ window.SITE = {
       links: { paper: "https://arxiv.org/abs/2610.22312", code: "https://github.com/grid-bench/Grid-Bench", project: "https://grid-bench.github.io/" }
     },
     {
-      id: "tsreason", group: "agents",
-      title: "When LLM Meets Time Series: A Real-World Benchmark for Explicit and Implicit Multi-Step Reasoning",
-      authors: "Muyan Weng, Jinbo Liu, Defu Cao, Wen Ye, Kexin Zhang, Wei Yang, Yan Liu†",
+      id: "timebraid", group: "agents",
+      title: "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting",
+      authors: "Xinyue Wang, Jiacheng Pang, Kun Zhou, Kexin Zhang, Defu Cao, Fan Feng, Faisal, Songyao Jin, Yan Liu, Biwei Huang†",
       venueShort: "arXiv 2026", venue: "Preprint, 2026",
-      links: { paper: "https://openreview.net/pdf?id=kYLEBMmkE7" }
+      links: { paper: "https://arxiv.org/abs/2609.29792", code: "https://github.com/CharonWangg/TimeBraid", project: "https://xinyuewangg.com/projects/timebraid/" }
     },
     {
       id: "agenticts", group: "agents",
@@ -65,14 +65,21 @@ window.SITE = {
       links: { paper: "https://www.researchgate.net/profile/Yifan-Hu-75/publication/407030432_The_Landscape_of_Agentic_Time_Series_Systems_Architectures_Reliability_and_Frontiers/links/6a2d9515d551e312d7201f35/The-Landscape-of-Agentic-Time-Series-Systems-Architectures-Reliability-and-Frontiers.pdf", project: "https://github.com/TROUBADOUR000/Awesome-Agentic-Time-Series" }
     },
     {
-      id: "timebraid", group: "agents",
-      title: "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting",
-      authors: "Xinyue Wang, Jiacheng Pang, Kun Zhou, Kexin Zhang, Defu Cao, Fan Feng, Faisal, Songyao Jin, Yan Liu, Biwei Huang†",
+      id: "tsreason", group: "agents",
+      title: "When LLM Meets Time Series: A Real-World Benchmark for Explicit and Implicit Multi-Step Reasoning",
+      authors: "Muyan Weng, Jinbo Liu, Defu Cao, Wen Ye, Kexin Zhang, Wei Yang, Yan Liu†",
       venueShort: "arXiv 2026", venue: "Preprint, 2026",
-      links: { paper: "https://arxiv.org/abs/2609.29792", code: "https://github.com/CharonWangg/TimeBraid", project: "https://xinyuewangg.com/projects/timebraid/" }
+      links: { paper: "https://openreview.net/pdf?id=kYLEBMmkE7" }
     },
 
     // ---- Time series
+    {
+      id: "mustang", group: "ts",
+      title: "MUSTANG: Multi-Variable Spatio-Temporal Meta-Learning for Water Data Imputation",
+      authors: "Yaotian Zhu, Ruiyao Xu, Zhaoyang Guan, Kexin Zhang, Noah Rudko, Chuxu Zhang, Rebecca L. Muenich, K. Selcuk Candan, Kaize Ding†",
+      venueShort: "KDD 2026", venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026",
+      links: { paper: "https://doi.org/10.1145/3770855.3818947" }
+    },
     {
       id: "latentts", group: "ts",
       title: "From Observations to States: Latent Time Series Forecasting",
@@ -93,13 +100,6 @@ window.SITE = {
       authors: "Kexin Zhang, Baoyu Jing, K. Selcuk Candan, Dawei Zhou, Qingsong Wen, Han Liu, Kaize Ding†",
       venueShort: "ECML-PKDD 2025", venue: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), 2025",
       links: { paper: "https://arxiv.org/abs/2506.12412", code: "https://github.com/kexin-kxzhang/CD2-TSI" }
-    },
-    {
-      id: "mustang", group: "ts",
-      title: "MUSTANG: Multi-Variable Spatio-Temporal Meta-Learning for Water Data Imputation",
-      authors: "Yaotian Zhu, Ruiyao Xu, Zhaoyang Guan, Kexin Zhang, Noah Rudko, Chuxu Zhang, Rebecca L. Muenich, K. Selcuk Candan, Kaize Ding†",
-      venueShort: "KDD 2026", venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026",
-      links: { paper: "https://doi.org/10.1145/3770855.3818947" }
     },
     {
       id: "revisitmts", group: "ts",
@@ -134,18 +134,18 @@ window.SITE = {
       links: { paper: "https://arxiv.org/abs/2411.15731", code: "https://github.com/kexin-kxzhang/OptFusion" }
     },
     {
-      id: "incmsr", group: "rec",
-      title: "IncMSR: An Incremental Learning Approach for Multi-Scenario Recommendation",
-      authors: "Kexin Zhang*, Yichao Wang*, Xiu Li†, Ruiming Tang, Rui Zhang",
-      venueShort: "WSDM 2024", venue: "ACM International Conference on Web Search and Data Mining (WSDM), 2024",
-      links: { paper: "https://doi.org/10.1145/3616855.3635828" }
-    },
-    {
       id: "multibehavior", group: "rec",
       title: "Combinatorial Optimization Perspective Based Framework for Multi-Behavior Recommendation",
       authors: "Chenhao Zhai, Chang Meng, Yu Yang, Kexin Zhang, Xuhao Zhao, Xiu Li†",
       venueShort: "KDD 2025", venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2025",
       links: { paper: "https://arxiv.org/abs/2502.02232", code: "https://github.com/1918190/COPF" }
+    },
+    {
+      id: "incmsr", group: "rec",
+      title: "IncMSR: An Incremental Learning Approach for Multi-Scenario Recommendation",
+      authors: "Kexin Zhang*, Yichao Wang*, Xiu Li†, Ruiming Tang, Rui Zhang",
+      venueShort: "WSDM 2024", venue: "ACM International Conference on Web Search and Data Mining (WSDM), 2024",
+      links: { paper: "https://doi.org/10.1145/3616855.3635828" }
     },
     {
       id: "hcl4qc", group: "rec",
