@@ -13,11 +13,12 @@
 // =====================================================================
 
 window.SITE = {
-  lastUpdated: "October 2026",
+  lastUpdated: "November 2026",
 
   // ------------------------------------------------------------- News
   newsShown: 5, // older items sit behind a "Show older news" button
   news: [
+    { date: "2026.11", text: 'One paper accepted at <strong>TMLR</strong> (<a href="#pub-waterquality">cross-domain spatial-temporal imputation for water quality data</a>).' },
     { date: "2026.10", text: 'Released <a href="#pub-gridbench">Grid-Bench</a>, a benchmark that tests whether LLMs can predict how discrete worlds change.' },
     { date: "2026.09", text: 'Released <a href="#pub-timebraid">TimeBraid</a>, unifying time series and language for understanding and forecasting.' },
     { date: "2026.06", text: 'Released a survey on <a href="#pub-agenticts">agentic time series systems</a>.' },
@@ -73,6 +74,13 @@ window.SITE = {
     },
 
     // ---- Time series
+    {
+      id: "waterquality", group: "ts",
+      title: "From Quantity to Quality: Cross-Domain Spatial-Temporal Imputation for Water Quality Data with Missing Values",
+      authors: "Kexin Zhang, Ruiyao Xu, Noah Rudko, Ting Liu, Chen Ma, Rebecca L. Muenich, K. Selcuk Candan, Kaize Ding†",
+      venueShort: "TMLR 2026", venue: "Transactions on Machine Learning Research (TMLR), 2026",
+      links: { paper: "" } // TODO: add OpenReview link
+    },
     {
       id: "mustang", group: "ts",
       title: "MUSTANG: Multi-Variable Spatio-Temporal Meta-Learning for Water Data Imputation",
