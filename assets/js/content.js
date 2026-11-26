@@ -18,20 +18,24 @@ window.SITE = {
   // ------------------------------------------------------------- News
   newsShown: 5, // older items sit behind a "Show older news" button
   news: [
-    { date: "2026.11", text: 'One paper accepted at <strong>TMLR</strong> (<a href="#pub-waterquality">cross-domain spatial-temporal imputation for water quality data</a>).' },
-    { date: "2026.10", text: 'Released <a href="#pub-gridbench">Grid-Bench</a>, a benchmark that tests whether LLMs can predict how discrete worlds change.' },
-    { date: "2026.09", text: 'Released <a href="#pub-timebraid">TimeBraid</a>, unifying time series and language for understanding and forecasting.' },
-    { date: "2026.06", text: 'Released a survey on <a href="#pub-agenticts">agentic time series systems</a>.' },
-    { date: "2026.06", text: '<a href="#pub-mustang">MUSTANG</a> accepted at <strong>KDD 2026</strong>.' },
-    { date: "2026.04", text: 'Papers accepted at <strong>ICML 2026</strong> (<a href="#pub-latentts">latent time-series forecasting</a>) and <strong>ACL 2026</strong> (<a href="#pub-molsurvey">LLMs for molecular discovery</a>).' },
-    { date: "2025.12", text: 'One paper accepted at <strong>TKDD</strong> (<a href="#pub-graphood">survey on graph learning under distribution shifts</a>).' },
-    { date: "2025.09", text: 'One paper accepted at <strong>NeurIPS 2025</strong> (<a href="#pub-glocal">Glocal Information Bottleneck</a>).' },
-    { date: "2025.06", text: "Recognized as an <strong>Outstanding Reviewer</strong> for KDD 2025 (February cycle), awarded to the top 10% of reviewers." },
-    { date: "2025.05", text: 'One paper accepted at <strong>ECML-PKDD 2025</strong> (<a href="#pub-crossdiff">cross-domain conditional diffusion</a>).' },
-    { date: "2024.11", text: 'One paper accepted at <strong>KDD 2025</strong> (<a href="#pub-multibehavior">multi-behavior recommendation</a>).' },
-    { date: "2024.10", text: 'One paper accepted at <strong>WSDM 2025</strong> (<a href="#pub-fusion">Fusion Matters</a>).' },
-    { date: "2023.10", text: 'One paper accepted at <strong>WSDM 2024</strong> (<a href="#pub-incmsr">IncMSR</a>).' },
-    { date: "2023.08", text: 'One paper accepted at <strong>CIKM 2023</strong> (<a href="#pub-hcl4qc">HCL4QC</a>).' }
+    // Two forms only:
+    //   Accepted by <strong>VENUE</strong>: <a>Name</a>, short topic.
+    //   New preprint: <a>Name</a>, short topic.
+    { date: "2026.11", text: 'Accepted by <strong>TMLR</strong>: <a href="#pub-waterquality">From Quantity to Quality</a>, cross-domain water-quality imputation.' },
+    { date: "2026.10", text: 'New preprint: <a href="#pub-gridbench">Grid-Bench</a>, can LLMs predict how discrete worlds change?' },
+    { date: "2026.09", text: 'New preprint: <a href="#pub-timebraid">TimeBraid</a>, unifying time series and language.' },
+    { date: "2026.06", text: 'New preprint: <a href="#pub-agenticts">a survey of agentic time series systems</a>.' },
+    { date: "2026.06", text: 'Accepted by <strong>KDD 2026</strong>: <a href="#pub-mustang">MUSTANG</a>, meta-learning for water data imputation.' },
+    { date: "2026.04", text: 'Accepted by <strong>ICML 2026</strong>: <a href="#pub-latentts">From Observations to States</a>, latent time series forecasting.' },
+    { date: "2026.04", text: 'Accepted by <strong>ACL 2026</strong>: <a href="#pub-molsurvey">a survey of LLMs for molecular discovery</a>.' },
+    { date: "2025.12", text: 'Accepted by <strong>TKDD</strong>: <a href="#pub-graphood">a survey of graph learning under distribution shifts</a>.' },
+    { date: "2025.09", text: 'Accepted by <strong>NeurIPS 2025</strong>: <a href="#pub-glocal">Glocal IB</a>, time series imputation.' },
+    { date: "2025.06", text: 'Recognized as an <strong>Outstanding Reviewer</strong> at KDD 2025 (top 10%).' },
+    { date: "2025.05", text: 'Accepted by <strong>ECML-PKDD 2025</strong>: <a href="#pub-crossdiff">CD²-TSI</a>, cross-domain diffusion for time series imputation.' },
+    { date: "2024.11", text: 'Accepted by <strong>KDD 2025</strong>: <a href="#pub-multibehavior">COPF</a>, multi-behavior recommendation.' },
+    { date: "2024.10", text: 'Accepted by <strong>WSDM 2025</strong>: <a href="#pub-fusion">Fusion Matters</a>, learned fusion for CTR prediction.' },
+    { date: "2023.10", text: 'Accepted by <strong>WSDM 2024</strong>: <a href="#pub-incmsr">IncMSR</a>, incremental multi-scenario recommendation.' },
+    { date: "2023.08", text: 'Accepted by <strong>CIKM 2023</strong>: <a href="#pub-hcl4qc">HCL4QC</a>, hierarchical contrastive learning for query classification.' }
   ],
 
   // ----------------------------------------------------- Publications
